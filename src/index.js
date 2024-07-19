@@ -8,7 +8,7 @@ import { Auth0Provider } from '@auth0/auth0-react';
 // Usar los valores de ".env"
 const domain = process.env.REACT_APP_AUTH0_DOMAIN;
 const clientId = process.env.REACT_APP_AUTH0_CLIENT_ID;
-const redirectUri = window.location.origin;
+const redirectUri = process.env.REACT_APP_AUTH0_CALLBACK_URL || window.location.origin;
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
