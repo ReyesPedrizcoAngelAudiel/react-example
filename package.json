@@ -2,7 +2,7 @@
   "name": "ia-smartparking_v2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ReyesPedrizcoAngelAudiel.github.io/react-example",
+  "homepage": "https://reyespedrizcoangelaudiel.github.io/react-example/",
   "dependencies": {
     "@auth0/auth0-react": "^2.2.4",
     "@testing-library/jest-dom": "^5.17.0",
